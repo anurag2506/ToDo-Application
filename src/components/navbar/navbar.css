@@ -1,0 +1,46 @@
+/* navbar.css */
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar img {
+    height: 125px;
+    width: 125;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 40px;
+    background: linear-gradient(to right, rgb(45, 45, 237),rgb(241, 27, 220));
+    -webkit-background-clip: text; /* Clip the background to text (for WebKit-based browsers) */
+    -webkit-text-fill-color: transparent; 
+}
+
+.navbar button {
+    background-color: transparent;
+    border: 2px solid white; /* Add border */
+    border-radius: 4px; /* Rounded corners */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 8px 16px; /* Padding inside the button */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar button h3 {
+    margin: 0;
+}
+
+.navbar button:hover {
+    opacity: 0.8;
+}
